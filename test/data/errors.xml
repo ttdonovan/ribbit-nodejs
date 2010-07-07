@@ -1,0 +1,543 @@
+ "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<groups type=\"array\">
+  <group>
+    <action>formats</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-11-20T17:08:36Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">886780</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T15:15:46Z</most-recent-notice-at>
+    <notice-hash>e8f275fa92d10bd8e614a8deba1c29aa</notice-hash>
+    <notices-count type=\"integer\">900</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T15:15:46Z</updated-at>
+  </group>
+  <group>
+    <action>country_address_fields</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-28T23:19:33Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1975288</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T15:14:56Z</most-recent-notice-at>
+    <notice-hash>dd8c2c5de4e15b6a36d5ee252f03982f</notice-hash>
+    <notices-count type=\"integer\">6</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T15:14:56Z</updated-at>
+  </group>
+  <group>
+    <action>remove_item</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-28T23:08:29Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1975258</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T14:50:37Z</most-recent-notice-at>
+    <notice-hash>c2bb84695475802eeb8de42907e86ea1</notice-hash>
+    <notices-count type=\"integer\">25</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T14:50:37Z</updated-at>
+  </group>
+  <group>
+    <action>user_sign_in</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-28T22:39:42Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1975177</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T14:18:29Z</most-recent-notice-at>
+    <notice-hash>241af54a7928f7d29c02bf830244ccca</notice-hash>
+    <notices-count type=\"integer\">5</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T14:18:29Z</updated-at>
+  </group>
+  <group>
+    <action>save_for_later</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-28T22:17:06Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1975068</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T14:02:50Z</most-recent-notice-at>
+    <notice-hash>4ed9e17d909bb61c434a75536987a9ca</notice-hash>
+    <notices-count type=\"integer\">39</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T14:02:50Z</updated-at>
+  </group>
+  <group>
+    <action>levels</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-05-22T12:49:44Z</created-at>
+    <error-class>Errno::ECONNRESET</error-class>
+    <error-message>Errno::ECONNRESET: Connection reset by peer</error-message>
+    <file>/usr/local/lib/ruby/1.8/net/protocol.rb</file>
+    <id type=\"integer\">424206</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">135</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T13:39:58Z</most-recent-notice-at>
+    <notice-hash>a56fa86089a26130c8ca64b14c2a4864</notice-hash>
+    <notices-count type=\"integer\">79</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T13:39:58Z</updated-at>
+  </group>
+  <group>
+    <action>index</action>
+    <controller>detail</controller>
+    <created-at type=\"datetime\">2010-06-29T00:10:59Z</created-at>
+    <error-class>Rit::TimeoutError</error-class>
+    <error-message>Rit::TimeoutError: Failed.</error-message>
+    <file>/data/apps/smp/releases/20100625231942/lib/rit.rb</file>
+    <id type=\"integer\">1975415</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">31</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T12:26:34Z</most-recent-notice-at>
+    <notice-hash>430045c15092752b8b31cf2b5a768b3d</notice-hash>
+    <notices-count type=\"integer\">31</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T12:26:34Z</updated-at>
+  </group>
+  <group>
+    <action>save_cart</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-29T15:16:40Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1977918</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T11:39:40Z</most-recent-notice-at>
+    <notice-hash>599e74a0825c48541b52961745117840</notice-hash>
+    <notices-count type=\"integer\">3</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T11:39:40Z</updated-at>
+  </group>
+  <group>
+    <action>move_to_cart</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-30T10:57:34Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1981906</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T10:57:34Z</most-recent-notice-at>
+    <notice-hash>7b6d383a7f8a4df2f96515d26082f164</notice-hash>
+    <notices-count type=\"integer\">1</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T10:57:34Z</updated-at>
+  </group>
+  <group>
+    <action>broadway</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-11-20T19:24:06Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">887162</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T09:45:32Z</most-recent-notice-at>
+    <notice-hash>74078e639bb8d6da193eda12a885396a</notice-hash>
+    <notices-count type=\"integer\">122</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T09:45:32Z</updated-at>
+  </group>
+  <group>
+    <action>update_item_quantity</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-28T20:53:06Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `item' for nil:NilClass</error-message>
+    <file>/data/apps/smp/releases/20100625231942/app/controllers/new_carts_controller.rb</file>
+    <id type=\"integer\">1974628</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">40</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T06:36:35Z</most-recent-notice-at>
+    <notice-hash>38cc7bbabdcc3d38ae7b22944ac0420c</notice-hash>
+    <notices-count type=\"integer\">10</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T06:36:35Z</updated-at>
+  </group>
+  <group>
+    <action>formats</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-05-23T05:33:46Z</created-at>
+    <error-class>Errno::ECONNRESET</error-class>
+    <error-message>Errno::ECONNRESET: Connection reset by peer</error-message>
+    <file>/usr/local/lib/ruby/1.8/net/protocol.rb</file>
+    <id type=\"integer\">425372</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">135</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T05:01:43Z</most-recent-notice-at>
+    <notice-hash>0b70205f069a7df6a17d6d89ccabe271</notice-hash>
+    <notices-count type=\"integer\">198</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T05:01:43Z</updated-at>
+  </group>
+  <group>
+    <action>update_item_quantity</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-29T04:35:37Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1976013</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T04:28:36Z</most-recent-notice-at>
+    <notice-hash>3b12550ccd5bf91ca78881ab34a8c321</notice-hash>
+    <notices-count type=\"integer\">5</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T04:28:36Z</updated-at>
+  </group>
+  <group>
+    <action>show</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-30T02:41:17Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1980690</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T02:41:17Z</most-recent-notice-at>
+    <notice-hash>64abd117dab7e181895ec527770ff2ff</notice-hash>
+    <notices-count type=\"integer\">1</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T02:41:17Z</updated-at>
+  </group>
+  <group>
+    <action>index</action>
+    <controller>detail</controller>
+    <created-at type=\"datetime\">2010-06-30T02:15:22Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `[]' for nil:NilClass</error-message>
+    <file>/data/apps/smp/releases/20100625231942/app/models/item.rb</file>
+    <id type=\"integer\">1980640</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">1969</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T02:15:22Z</most-recent-notice-at>
+    <notice-hash>12fedbbab0d0796d702937ae3cc9c424</notice-hash>
+    <notices-count type=\"integer\">1</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T02:15:23Z</updated-at>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>clearance/passwords</controller>
+    <created-at type=\"datetime\">2010-06-29T18:08:08Z</created-at>
+    <error-class>ActionController::Forbidden</error-class>
+    <error-message>ActionController::Forbidden: non-existent user</error-message>
+    <file>/data/apps/smp/releases/20100625231942/app/controllers/clearance/passwords_controller.rb</file>
+    <id type=\"integer\">1978596</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">55</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T00:45:00Z</most-recent-notice-at>
+    <notice-hash>3d7b1ecac6e2ca7a1ce763b49bbd328b</notice-hash>
+    <notices-count type=\"integer\">7</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T00:45:00Z</updated-at>
+  </group>
+  <group>
+    <action>new</action>
+    <controller>clearance/confirmations</controller>
+    <created-at type=\"datetime\">2010-06-30T00:06:37Z</created-at>
+    <error-class>ActionController::Forbidden</error-class>
+    <error-message>ActionController::Forbidden: non-existent user</error-message>
+    <file>/data/apps/smp/releases/20100625231942/app/controllers/clearance/confirmations_controller.rb</file>
+    <id type=\"integer\">1980185</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">49</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-30T00:06:37Z</most-recent-notice-at>
+    <notice-hash>defa25f2eb50a95ef1a7cedceed547c4</notice-hash>
+    <notices-count type=\"integer\">1</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-30T00:06:37Z</updated-at>
+  </group>
+  <group>
+    <action>edit</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-29T13:00:01Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1977407</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T22:29:18Z</most-recent-notice-at>
+    <notice-hash>5a3efb4834b72a58f1810dfe13605969</notice-hash>
+    <notices-count type=\"integer\">3</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T22:29:18Z</updated-at>
+  </group>
+  <group>
+    <action>update</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-28T21:10:14Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1974685</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T21:29:39Z</most-recent-notice-at>
+    <notice-hash>292324cb692855907b6ced4e494381a8</notice-hash>
+    <notices-count type=\"integer\">2</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T21:29:39Z</updated-at>
+  </group>
+  <group>
+    <action>shipping_type</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-28T21:11:14Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1974687</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T21:15:44Z</most-recent-notice-at>
+    <notice-hash>503ab5d52d1a7c6dafb1decf0ef36ffb</notice-hash>
+    <notices-count type=\"integer\">3</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T21:15:44Z</updated-at>
+  </group>
+  <group>
+    <action>update_item_quantity</action>
+    <controller>new_carts</controller>
+    <created-at type=\"datetime\">2010-06-29T19:55:58Z</created-at>
+    <error-class>NoMethodError</error-class>
+    <error-message>NoMethodError: undefined method `item' for nil:NilClass</error-message>
+    <file>/data/apps/smp/releases/20100629175012/vendor/rails/activesupport/lib/active_support/deprecation.rb</file>
+    <id type=\"integer\">1978996</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">135</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T19:57:07Z</most-recent-notice-at>
+    <notice-hash>01b16876ad68afad0c1e3a23373c0be6</notice-hash>
+    <notices-count type=\"integer\">5</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>staging</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T19:55:58Z</updated-at>
+  </group>
+  <group>
+    <action>instruments</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-05-21T18:38:41Z</created-at>
+    <error-class>Errno::ECONNRESET</error-class>
+    <error-message>Errno::ECONNRESET: Connection reset by peer</error-message>
+    <file>/usr/local/lib/ruby/1.8/net/protocol.rb</file>
+    <id type=\"integer\">423079</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">135</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T18:37:00Z</most-recent-notice-at>
+    <notice-hash>a7154e6b0a5e6c5fdb2561aee4b11072</notice-hash>
+    <notices-count type=\"integer\">1554</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T18:37:00Z</updated-at>
+  </group>
+  <group>
+    <action>composed</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-11-20T10:53:05Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">885848</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T18:22:33Z</most-recent-notice-at>
+    <notice-hash>ce11ab4b818d59a4419684644005d1e5</notice-hash>
+    <notices-count type=\"integer\">1458</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T18:22:33Z</updated-at>
+  </group>
+  <group>
+    <action>ensembles</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-10-02T21:24:39Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">702100</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T18:22:30Z</most-recent-notice-at>
+    <notice-hash>b7fccee2eac764befa65cb20d3150e55</notice-hash>
+    <notices-count type=\"integer\">2797</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T18:22:30Z</updated-at>
+  </group>
+  <group>
+    <action>instruments</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-09-28T19:03:45Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">688546</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T18:06:52Z</most-recent-notice-at>
+    <notice-hash>dd67e7f1db38f9e6ecde83b8bbe0a662</notice-hash>
+    <notices-count type=\"integer\">4870</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T18:06:50Z</updated-at>
+  </group>
+  <group>
+    <action>index</action>
+    <controller>homepage</controller>
+    <created-at type=\"datetime\">2010-06-28T20:23:52Z</created-at>
+    <error-class>Rit::TimeoutError</error-class>
+    <error-message>Rit::TimeoutError: Failed.</error-message>
+    <file>/data/apps/smp/releases/20100625231942/lib/rit.rb</file>
+    <id type=\"integer\">1974521</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">31</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T18:04:19Z</most-recent-notice-at>
+    <notice-hash>68cd5a35d5c4642ae31c0b168aa18542</notice-hash>
+    <notices-count type=\"integer\">3</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T18:04:19Z</updated-at>
+  </group>
+  <group>
+    <action>complete</action>
+    <controller>checkouts</controller>
+    <created-at type=\"datetime\">2010-06-29T16:51:19Z</created-at>
+    <error-class>ActiveRecord::StaleObjectError</error-class>
+    <error-message>ActiveRecord::StaleObjectError: Attempted to update a stale object</error-message>
+    <file>/data/apps/smp/releases/20100625231942/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb</file>
+    <id type=\"integer\">1978313</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">89</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T17:25:51Z</most-recent-notice-at>
+    <notice-hash>08df0602abcd1518e4127dddd87c5abd</notice-hash>
+    <notices-count type=\"integer\">2</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T17:25:51Z</updated-at>
+  </group>
+  <group>
+    <action>performed</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-11-20T07:24:11Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">885559</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T17:20:36Z</most-recent-notice-at>
+    <notice-hash>171915313c574a0ca23194c347a60aea</notice-hash>
+    <notices-count type=\"integer\">1856</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T17:20:36Z</updated-at>
+  </group>
+  <group>
+    <action>genres</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-11-20T16:01:12Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">886577</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T17:09:32Z</most-recent-notice-at>
+    <notice-hash>4ffcd7f8f88a282cacc805a53d6e50f5</notice-hash>
+    <notices-count type=\"integer\">2648</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T17:09:32Z</updated-at>
+  </group>
+  <group>
+    <action>series</action>
+    <controller>category</controller>
+    <created-at type=\"datetime\">2009-11-20T19:59:12Z</created-at>
+    <error-class>CircuitBreaker::CircuitBrokenException</error-class>
+    <error-message>CircuitBreaker::CircuitBrokenException: execution expired</error-message>
+    <file>/usr/local/lib/ruby/1.8/timeout.rb</file>
+    <id type=\"integer\">887299</id>
+    <lighthouse-ticket-id type=\"integer\" nil=\"true\"></lighthouse-ticket-id>
+    <line-number type=\"integer\">60</line-number>
+    <most-recent-notice-at type=\"datetime\">2010-06-29T16:37:30Z</most-recent-notice-at>
+    <notice-hash>8021ae9204bec073e909d4de200efd27</notice-hash>
+    <notices-count type=\"integer\">158</notices-count>
+    <project-id type=\"integer\">5051</project-id>
+    <rails-env>production</rails-env>
+    <resolved type=\"boolean\">false</resolved>
+    <updated-at type=\"datetime\">2010-06-29T16:37:30Z</updated-at>
+  </group>
+</groups>"

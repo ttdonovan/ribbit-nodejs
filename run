@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+export TOAD_PATH=$(dirname . `readlink $0`)
+
+export NODE_PATH=\
+$NODE_PATH\
+:$TOAD_PATH\
+:$TOAD_PATH/lib\
+:$TOAD_PATH/vendor/
+
+node "$@"
